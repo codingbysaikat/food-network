@@ -180,6 +180,12 @@
     .right-on{
         width: 127px;
     }
+    .about-con p{
+        margin: 0;
+        width: 258px;
+        font-size: 11px;
+        line-height: 18px;
+    }
 }
 @media only screen and (max-width:750px){
     .single-con p {
@@ -216,10 +222,7 @@
         
         margin-top: 0px;
     }
-    .about-con p {
-        font-size: 11px;
-        line-height: 25px;
-    }
+
     .about-img img {
         width: 283px;
         height: 369px;
@@ -273,15 +276,17 @@
     .about-con h2{
         font-size: 28px;
     }
-    .about-con p {
-        width: 159px;
-        font-size: 10px;
-        line-height: 19px;
-    }
+
     .blog-about {
         width: 597px;
     }
-
+    .single-con {
+        
+        margin: 10px 0px;
+    }
+    .single-con p{
+        width: 236px;
+    }
 }
 @media only screen and (max-width:594px){
     .all-networks {
@@ -289,24 +294,23 @@
         font-size: 9px;
         
     }
+    .single-con p {
+        width: 227px;
+    }
 }
 @media only screen and (max-width:582px){
-    .about-con p {
-        font-size: 10px;
-        line-height: 19px;
-    }
-    .about-con p {
-        margin-right: 30px;
-    }
-    .about-con p{
-        padding: 12px 0px;
-    }
+
     .blog-about {
         width: 527px;
         font-size: 16px;
         line-height: 23px;
     }
 
+}
+@media only screen and (max-width:565px){
+    .single-con p {
+        width: 213px;
+    }
 }
 @media only screen and (max-width:555px){
 .about-img img {
@@ -320,21 +324,72 @@
     width: 465px;
     font-size: 11px;
 }
+.about-img img {
+    width: 211px;
+    height: 261px;
 }
-@media only screen and (max-width:555px){
-    .about-img img {
-        width: 211px;
-        height: 261px;
+.about-con a {
+    padding: 12px 19px;
+    font-size: 14px;
+}
+.blog-about {
+    width: 431px;
+    
+}
+}
+@media only screen and (max-width:537px){
+    .single-con p {
+        width: 203px;
     }
-    .about-con a {
-        padding: 12px 19px;
-        font-size: 14px;
+    .about-con p{
+        width: 227px;
+    }
+
+}
+@media only screen and (max-width:516px){
+    .single-con p {
+        width: 191px;
     }
 }
-@media only screen and (max-width:555px){
+}
+/* stard mobile from here */
+@media only screen and (max-width:375px){
     .blog-about {
-        width: 431px;
+        width: 368px;
+    }
+    .main-header a{
+        width: 136px;
+        font-size: 11px;
+    }
+    .img-shap{
+        display: none;
+    }
+    .main-img img{
+        max-width: 118%;
+    }
+    .about-con h2{
+        text-align: center;
+    }
+    .about-con p {
+        text-align: center;
         
     }
-}
+    .about-con p {
+        width: 321px;
+    }
+    .about-con a{
+        display: grid;
+        margin: 10px auto;
+        width: 127px;
+    }
+    .about-con {
+        
+        z-index: 1;
+    }
+    .about-sec{
+        padding-top: 18px;
+    }
+    .about-con p{
+        padding: 6px 0px;
+    }
 }
