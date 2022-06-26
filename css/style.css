@@ -1,11 +1,13 @@
 *{
     padding: 0;
-    margin: 0;
+    max-width: 1400px;
+    
+    margin: auto;
     box-sizing: border-box;
 }
 .body{
-    max-width: 1400px;
-    margin: auto;
+
+    
 }
 .main-header{
     display: flex;
@@ -13,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 26px;
+    
 
 }
 .header-content{
@@ -22,11 +25,18 @@
     flex-basis: 50%;
     position: relative;
 }
-.main-img{
-    background-repeat: no-repeat;
-    background-position-x: 20px;
-    background-position-y:20px;
+.img-shap{
+    position: absolute;
+    width: 199px;
+    height: 97px;
     background-image: url(../images/Group\ 88.png);
+    background-repeat: no-repeat;
+    bottom: 50px;
+    right: 54px;
+    z-index: -1;
+}
+.main-img{
+
 }
 
 .main-img img{
@@ -55,6 +65,10 @@
     line-height: 160%;
     letter-spacing: -0.02em;
     color: #828282;
+    margin: 18px 0px;
+}
+.special{
+    color: #FBA24F;
 }
 .main-header a{
     display: flex;
@@ -79,9 +93,7 @@
 /* start about section */
 
 .about-sec{
-    background-size: contain;
-    background-position: 0 0;
-  background-image: url(../images/Half\ Circle\ 1.png);
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -89,24 +101,69 @@
     padding-top: 89px;
     background: rgba(252, 143, 73, 0.1);
 }
+.top-left{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-image: url(../images/Half\ Circle\ 1.png);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    
+}
+.top-on{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-image: url(../images/Half\ Circle\ 2.png);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 150px;
+   
+    z-index: -1;
+}
+.left-on{
+    position: absolute;
+    width: 100px;
+    height: 210px;
+    background-image: url(../images/Half\ Circle\ 4.png);
+    background-repeat: no-repeat;
+    top: 350px;
+    z-index: auto;
+   
+}
+.right-on{
+    position: absolute;
+    width: 155px;
+    height: 105px;
+    right: 0;
+    top: 50px;
+    background-image: url(../images/Half\ Circle\ 3.png);
+    background-repeat: no-repeat;
+    z-index: auto;
+    
+}
+.bottom-left{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/Group\ 88.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
 .about-img{
-    position: relative;
     flex-basis: 50%;
     display: flex;
     justify-content: center;
 
 }
-.shap-1{
-    
-    width: 100px;
-    height: auto;
-    background-repeat: no-repeat;
-    background-image: url(../images/Half\ Circle\ 1.png);
-}
+
 .about-img img{
-    
-    flex-basis: 18%;
-    height: 507px;
+       width: 338px;
+       height: 536px;
+       z-index: 1;
     
 }
 .about-con{
@@ -146,12 +203,17 @@
     text-decoration: none;
 }
 /* start blog */
+.blog{
+    
+
+}
 .blog-con{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    margin: 0 5px;
+    
 
 
 }
@@ -174,6 +236,7 @@
     color: #676767;
     width: 706px;
     margin: auto;
+    margin: 39px auto;
 }
 .single-con{
     flex-basis: 30%;
@@ -222,7 +285,7 @@
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    width: 1159px;
+    width: 1204px;
     height: 141px;
     margin: 69px auto;
 
@@ -238,6 +301,7 @@
     background: #0B0D17;
     text-align: center;
     height: 194px;
+   
 }
 .footer-sec h2{
     font-family: 'Manrope';

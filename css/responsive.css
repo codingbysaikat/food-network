@@ -1,3 +1,253 @@
-@media only screen and (max-width: 1235px) {
+@media only screen and (max-width:1264px) {
+    .main-header h1{
+        font-size: 50px;
+    }
+    .img-shap{
+        width: 212px;
+        height: 83px;
+        bottom: 42px;
+    right: 51px;
+    }
+    .about-con p{
+        margin-right: 133px;
+    }
+    .about-img img {
+        width: 324px;
+        height: 523px;
+        
+    }
+    .about-con a{
+        padding: 20px 28px;
+        font-size: 17px;
+        margin-top: 22px;
+    }
+    .single-con p{
+        width: 304px;
+    }
+}
 
+
+
+@media only screen and (max-width:1064px) {
+    .main-header p{
+        font-size: 18px;
+        
+    }
+    .main-header h1{
+        font-size: 46px;
+        line-height: 124%;
+    }
+    .main-header a{
+        padding: 22px 32px;
+        width: 171px;
+        height: 63px;
+    }
+    .main-header h1 {
+        font-size: 41px;
+        line-height: 122%;
+    }
+    .img-shap{
+        bottom: 29px;
+        right: 52px;
+    }
+    .about-img img {
+        width: 314px;
+        height: 514px;
+    }
+    .about-con p {
+        margin-right: 93px;
+    }
+    .about-con p{
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .single-con{
+        flex-basis: 23%;
+    }
+    .single-con p {
+        width: 271px;
+    }
+}
+@media only screen and (max-width:971px){
+    .single-con p {
+        width: 236px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .single-con h3{
+        font-size: 21px;
+    }
+
+}
+
+@media only screen and (max-width:887px) {
+    .main-header h1 {
+        font-size: 38px;
+        line-height: 122%;
+    }
+    .single-con p {
+        width: 193px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+}
+@media only screen and (max-width:827px){
+    .main-header h1 {
+        font-size: 35px;
+        line-height: 141%;
+    }
+    .about-img img {
+        width: 308px;
+        height: 455px;
+    }
+    .about-con p {
+        margin-right: 40px;
+    }
+    .left-on{
+        top: 202px;
+    }
+}
+@media only screen and (max-width:766px){
+    .main-header h1 {
+        font-size: 32px;    
+    }
+    .about-img img {
+        width: 293px;
+        height: 380px;
+    }
+    .about-con a {
+        padding: 17px 26px;
+        font-size: 14px;
+        
+    }
+    .main-header p {
+        font-size: 14px;
+    }
+    .main-header a {
+        padding: 22px 32px;
+        width: 150px;
+        height: 55px;
+        font-size: 13px;
+    }
+    .img-shap {
+        bottom: 24px;
+        right: 24px;
+        width: 177px;
+        height: 74px;
+    }
+    .right-on{
+        width: 127px;
+    }
+}
+@media only screen and (max-width:750px){
+    .single-con p {
+        width: 149px;
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .single-con h3 {
+        font-size: 18px;
+    }
+
+}
+@media only screen and (max-width:715px){
+    .right-on{
+        width: 127px;
+    }
+    .main-header h1 {
+        font-size: 30px;
+        line-height: 128%;
+    }
+    .about-con a {
+        
+        margin-top: 0px;
+    }
+    .about-con p {
+        font-size: 11px;
+        line-height: 25px;
+    }
+    .about-img img {
+        width: 283px;
+        height: 369px;
+    }
+    .right-on {
+        width: 109px;
+    }
+}
+@media only screen and (max-width:675px){
+    .main-header h1 {
+        font-size: 28px;
+        line-height: 123%;
+    }
+    .main-header a {
+        
+        width: 142px;
+        height: 50px;
+        font-size: 13px;
+    }
+    .main-header h1 {
+        font-size: 25px;
+        
+    } 
+    .main-header h1 {
+        font-size: 23px;
+    }
+    .main-header h1 {
+        font-size: 20px;
+    }
+    .img-shap {
+        bottom: 14px;
+        right: 24px;
+        width: 147px;
+        height: 84px;
+    }
+    .bottom-left{
+        width: 98px;
+        height: 58px;
+    }
+}
+@media only screen and (max-width:650px){
+    .about-img img {
+        width: 242px;
+        height: 307px;
+    }
+    .about-con h2{
+        font-size: 28px;
+    }
+    .about-con p {
+        font-size: 10px;
+        line-height: 19px;
+    }
+}
+@media only screen and (max-width:582px){
+    .about-con p {
+        font-size: 10px;
+        line-height: 19px;
+    }
+    .about-con p {
+        margin-right: 30px;
+    }
+    .about-con p{
+        padding: 12px 0px;
+    }
+}
+@media only screen and (max-width:555px){
+.about-img img {
+    width: 220px;
+    height: 291px;
+}
+.right-on {
+    width: 81px;
+}
+}
+@media only screen and (max-width:555px){
+    .about-img img {
+        width: 211px;
+        height: 261px;
+    }
+    .about-con a {
+        padding: 12px 19px;
+        font-size: 14px;
+    }
 }
