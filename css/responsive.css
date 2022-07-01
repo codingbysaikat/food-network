@@ -453,5 +453,13 @@
 .footer-sec p{
     font-size: 15px;
 }
+.header-content{
+    animation: none;
+    visibility: visible;
+}
+.main-img img{
+    animation: none;
+
+}
 }
 

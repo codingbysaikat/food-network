@@ -20,6 +20,19 @@ jQuery(document).ready(function( $ ) {
        if(winheight>blog_diff){
         $('.blog-con').addClass('animate-run');
        }
+       //about image animation
+       let about_image_height = $('.about-img img').offset().top
+       let about_image_diffrint = about_image_height - scrollhight;
+       if(winheight > about_image_diffrint){
+        $('.about-img img').addClass('image-animation');
+       }
+       // About Description Animation
+       let about_description_animation = $('.about-con').offset().top;
+       let about_description_diffrent = about_description_animation - scrollhight;
+       if(winheight > about_description_diffrent){
+        $('.about-con').addClass('about-animation');
+       }
+
 
     });
         

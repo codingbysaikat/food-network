@@ -63,7 +63,7 @@
     height: auto;
     background-repeat: no-repeat;
     background-position: bottom right;
-    animation: img-move 1s linear 1;
+    animation: img-move 2s linear 1;
     
       
 }
@@ -197,10 +197,42 @@
        width: 338px;
        height: 536px;
        z-index: 1;
+       visibility: hidden;
+      
     
+}
+.image-animation{
+    animation: about-image  1s linear  1 forwards;
+}
+@keyframes about-image{
+    0%{
+        transform:translateX(-120px);
+        visibility: visible;
+
+    }
+    100%{
+         transform: translateX(0px);
+         visibility: visible;
+    }
 }
 .about-con{
     flex-basis: 50%;
+    visibility: hidden;
+   
+}
+.about-animation{
+    animation: about-con-ani 1s linear  1  forwards;
+}
+@keyframes about-con-ani{
+    0%{
+        transform: translateX(100px);
+        visibility: visible;
+
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
 }
 .about-con h2{
     font-family: 'Montserrat';
